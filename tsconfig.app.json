@@ -6,6 +6,10 @@
     "module": "ESNext",
     "skipLibCheck": true,
 
+  
+    "esModuleInterop": true,                 // ✅ For default imports
+    "allowSyntheticDefaultImports": true,    // ✅ Helps Jest + React
+
     /* Bundler mode */
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,

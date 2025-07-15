@@ -6,6 +6,9 @@
   ],
   "compilerOptions": {
     "baseUrl": ".",
+    "esModuleInterop": true,                 // ✅ FIX 1
+    "allowSyntheticDefaultImports": true,    // ✅ Optional but helps
+    "jsx": "react-jsx",                      // ✅ FIX 2 for JSX in tsx
     "paths": {
       "@/*": ["./src/*"]
     },
